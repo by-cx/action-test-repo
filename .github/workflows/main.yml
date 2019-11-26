@@ -15,4 +15,4 @@ jobs:
       run: |
         echo Ref: $GITHUB_REF
         echo SHA: $GITHUB_SHA
-        echo ${{ github }}
+        echo ${{ JSON.stringify(github) }}
